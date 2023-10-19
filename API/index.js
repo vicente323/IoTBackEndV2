@@ -1,4 +1,4 @@
-
+const EnergyData =  require ('../DB/schema.js')
 
 
 const express = require("express");
@@ -13,7 +13,7 @@ const  database = module.exports = () =>{
     mongoose.model('EnergyData',EnergyData);
     console.log("Database conected succesfully");
   }catch(error){
-    //console.log(error);
+    console.log("Model Error");
 
   }
 }
