@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "IoT backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev" : "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicente323/IoTBackEnd.git"
+  },
+  "keywords": [
+    "IoT"
+  ],
+  "author": "Vicente Bejarano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicente323/IoTBackEnd/issues"
+  },
+  "homepage": "https://github.com/vicente323/IoTBackEnd#readme"
+}
