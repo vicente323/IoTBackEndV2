@@ -1,9 +1,9 @@
-const EnergyData =  require ('../DB/schema.js')
+
 
 
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 80;
 const mongoose =require("mongoose");
 
 const  database = module.exports = () =>{
@@ -13,7 +13,7 @@ const  database = module.exports = () =>{
     mongoose.model('EnergyData',EnergyData);
     console.log("Database conected succesfully");
   }catch(error){
-    console.log("Database connection failed");
+    //console.log(error);
 
   }
 }
